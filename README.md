@@ -1,69 +1,138 @@
-# Welcome to your Lovable project
+# 🐝 **CrowdHive: Decentralized Crowdfunding on the Hive Blockchain**  
 
-## Project info
+CrowdHive is a **next-generation crowdfunding platform** built on the **Hive blockchain**, offering **transparency, security, and decentralized governance**. By leveraging blockchain technology, CrowdHive enables creators to **raise funds with full transparency** while empowering backers with **secure transactions and verifiable project progress**.  
 
-**URL**: https://lovable.dev/projects/45581338-1d5f-4f57-91fa-c56ead18acb5
+## 🚀 **Core Functionality**  
 
-## How can I edit this code?
+### 🔗 **Blockchain-Based Crowdfunding**  
+- Projects are **stored on the Hive blockchain** for **immutability** and **security**  
+- Funding is conducted using **cryptocurrency (primarily HIVE)**  
+- All transactions are recorded on-chain for **transparency**  
 
-There are several ways of editing your application.
+### 🔑 **User Authentication**  
+- Connect via **Hive wallet** (using Hive Keychain extension)  
+- Decentralized identity verification with different levels:  
+  ✅ **Unverified** – Basic access  
+  ✅ **Basic Verified** – Limited funding privileges  
+  ✅ **Fully Verified** – Full funding and project creation rights  
 
-**Use Lovable**
+### 🔎 **Project Discovery**  
+- Browse projects by **category, trending, or newest**  
+- Featured projects section on the **homepage**  
+- **Search and filter functionality** for better navigation  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/45581338-1d5f-4f57-91fa-c56ead18acb5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚡ **Advanced Features**  
 
-**Use your preferred IDE**
+### 🌍 **Multi-Chain Support**  
+- Accept funding from **multiple blockchains** (Hive, Ethereum, Solana)  
+- Seamless **cross-chain interoperability**  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎨 **NFT Rewards for Backers**  
+- **Creators can issue NFTs** to project supporters  
+- **Set minimum contribution levels** for exclusive NFT rewards  
+- **Track NFT distribution** and monitor availability  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🏛️ **DAO Governance**  
+- **Community-driven decision-making** for project funding  
+- Vote on **governance proposals**  
+- **Transparent voting mechanisms** ensure fairness  
 
-Follow these steps:
+### 💳 **Subscription-Based Funding**  
+- **Recurring funding options** with different tiers  
+- **Monthly or annual subscriptions** for continuous project support  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 📊 **Project Management & Transparency**  
+- **Milestone tracking** for project development  
+- **Progress updates & impact reports**  
+- **Demonstrate project effectiveness** with transparency metrics  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📝 **Project Drafts**  
+- Save work-in-progress projects as **drafts**  
+- **Auto-save functionality** to prevent data loss  
+- **Resume editing** anytime from your dashboard  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ☁️ **Decentralized Storage**  
+- Store project media on **IPFS, Arweave** for **censorship-resistant** storage  
+- **Redundant storage** ensures data availability  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🎨 **User Experience Features**  
+
+### 📱 **Responsive Design**  
+- Works **seamlessly on desktop, tablet, and mobile devices**  
+- **Modern UI/UX with dark theme**  
+
+### 🤖 **AI-Powered Content Optimization**  
+- **Smart content suggestions** for project descriptions  
+- **Readability and engagement analysis**  
+
+### 📊 **Progress Tracking & Impact Metrics**  
+- **Visual indicators** of funding progress  
+- **Milestone completion tracking**  
+- **Impact reports** for transparency  
+
+### 🔖 **Bookmarking & Personal Dashboard**  
+- **Save favorite projects** for later  
+- Personalized **dashboard** for followed projects  
+
+---
+
+## 🛠 **Tech Stack**  
+
+- **Blockchain:** Hive, Ethereum, Solana  
+- **Frontend:** React.js, Next.js  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB  
+- **Smart Contracts:** Hive Smart Media Tokens (SMTs), Ethereum Solidity Contracts  
+- **Decentralized Storage:** IPFS, Arweave  
+
+---
+
+## 🎯 **How to Run the Project**  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/crowdhive.git
+cd crowdhive
 ```
 
-**Edit a file directly in GitHub**
+### 2️⃣ Install Dependencies  
+```bash
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3️⃣ Start the Development Server  
+```bash
+npm start
+```
 
-**Use GitHub Codespaces**
+### 4️⃣ Open in Browser  
+Visit: `http://localhost:3000`  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📜 **License**  
+This project is licensed under the **MIT License**.  
 
-This project is built with .
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🙌 **Contributing**  
+We welcome contributions! To contribute:  
+1. Fork the repo  
+2. Create a new branch (`feature-xyz`)  
+3. Commit changes  
+4. Open a pull request  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/45581338-1d5f-4f57-91fa-c56ead18acb5) and click on Share -> Publish.
+## 📩 **Contact**  
+For inquiries, reach out via:  
+📧 **Email:** your-email@example.com  
+🌐 **Website:** [CrowdHive](https://trainit.netlify.app/)  
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+🚀 **Join the future of decentralized crowdfunding with CrowdHive!** 🎉  
